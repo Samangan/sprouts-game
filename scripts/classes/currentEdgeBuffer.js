@@ -22,8 +22,8 @@
     	this.sourceNode = sourceNode;
     };
 
-	CurrentEdgeBuffer.prototype.associateDestinationNode = function (destinationNode) {
-		this.destinationNode = destinationNode;
+    CurrentEdgeBuffer.prototype.associateDestinationNode = function (destinationNode) {
+        this.destinationNode = destinationNode;
     };
 
 
