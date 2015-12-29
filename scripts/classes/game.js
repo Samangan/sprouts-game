@@ -1,10 +1,6 @@
 
 ;(function (root) {
     var SproutsGame = root.SproutsGame = root.SproutsGame || {};
-        
-    // TODO: 
-    // * Add the concept of players to game.js.
-    // * Then once I have basic 2 player turn taking (TODO: best way to do this?) I should make the serverside API for this game.
 
     var Game = SproutsGame.Game = function (canvas, edgeCanvas) {
         var self = this;

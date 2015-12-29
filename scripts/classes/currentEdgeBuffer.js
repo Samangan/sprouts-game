@@ -31,8 +31,8 @@
         this.pixelBuffer = pixelBuffer;
     };
 
-	CurrentEdgeBuffer.prototype.pushNewPixel = function (pixelPosition) {
-		this.pixelBuffer.push(pixelPosition)
+    CurrentEdgeBuffer.prototype.pushNewPixel = function (pixelPosition) {
+        this.pixelBuffer.push(pixelPosition)
     };
 
     CurrentEdgeBuffer.prototype.getPixelBuffer = function () {
