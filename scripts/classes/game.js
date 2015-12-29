@@ -15,6 +15,9 @@
 
         this.nodes = [];
         this.edges = [];
+
+        this.players = [];
+        this.currentPlayer = 0; // This is the index of the players array that stores the current playing player.
     };
 
     Game.prototype.step = function (context){

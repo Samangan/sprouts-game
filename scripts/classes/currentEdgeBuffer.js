@@ -3,9 +3,9 @@
     var SproutsGame = root.SproutsGame = root.SproutsGame || {};
 
     var CurrentEdgeBuffer = SproutsGame.CurrentEdgeBuffer = function () {
-		this.pixelBuffer = [];
-		this.sourceNode = {};
-		this.destinationNode = {};
+        this.pixelBuffer = [];
+        this.sourceNode = {};
+        this.destinationNode = {};
     };
 
     CurrentEdgeBuffer.prototype.draw = function (context) {
@@ -36,11 +36,11 @@
     };
 
     CurrentEdgeBuffer.prototype.getPixelBuffer = function () {
-		return this.pixelBuffer;
+        return this.pixelBuffer;
     };
 
     CurrentEdgeBuffer.prototype.getSourceNode = function () {
-		return this.sourceNode;
+        return this.sourceNode;
     };
 
 
